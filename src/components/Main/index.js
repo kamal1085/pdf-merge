@@ -17,20 +17,23 @@ export default function Main({ handlefile, handleSave, loaded, isLoading, isSavi
     <div className='container'>
       {/* <Topbar>
       </Topbar> */}
-      <div className='github'>
-        <a href='https://github.com/ynynl/severless-pdf-merge'>
-          <img src={githubIcon} width={24} alt=''></img>
-        </a>
-      </div>
+      {/*<div className='github'>*/}
+      {/*  <a href='https://github.com/ynynl/severless-pdf-merge'>*/}
+      {/*    <img src={githubIcon} width={24} alt=''></img>*/}
+      {/*  </a>*/}
+      {/*</div>*/}
       <div className='content'>
 
-        <img src={icon} width={100} alt=''></img>
+        {/*<img src={icon} width={100} alt=''></img>*/}
 
-        <p>no server. fully pravite.</p>
+        {/*<p>no server. fully pravite.</p>*/}
 
         <h1>
-          PDF Arrange and Combine
+            Merge PDF
         </h1>
+          <h3>
+              Merge PDF files and combine two or more PDF Files into an original PDF layout online.
+          </h3>
 
         <FileInput handlefile={handlefile} processing={isLoading} />
         {/* <Controller /> */}

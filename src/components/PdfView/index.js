@@ -51,11 +51,11 @@ const PdfView = ({ file, fileId, updateList, updateCheck }) => {
     <div className='doc'>
       <Resizable
         style={{ display: "flex" }}
-        defaultSize={{ width: '200', height: '100vh' }}
+        defaultSize={{ width: '100vh', height: '300' }}
         maxWidth='600'
         minWidth='160'
         handleClasses={{ right: 'handle' }}
-        enable={{ top: false, right: true, bottom: false, left: false, topRight: false, bottomRight: false, bottomLeft: false, topLeft: false }}
+        enable={{ top: false, right: false, bottom: true, left: false, topRight: false, bottomRight: false, bottomLeft: false, topLeft: false }}
       >
         <Topbar>
           <div className='checkbox'>
