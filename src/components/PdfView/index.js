@@ -51,7 +51,7 @@ const PdfView = ({ file, fileId, updateList, updateCheck }) => {
     <div className='doc'>
       <Resizable
         style={{ display: "flex" }}
-        defaultSize={{ width: '100vh', height: '300' }}
+        defaultSize={{ width: '100%', height: '300' }}
         maxWidth='600'
         minWidth='160'
         handleClasses={{ right: 'handle' }}
